@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { QrCode } from 'lucide-react';
@@ -29,7 +28,13 @@ const HeroSection = () => {
           <Button 
             size="lg" 
             variant="outline" 
-            className="border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 text-lg"
+            className="border-white text-blue-300 hover:bg-yellow-300 hover:text-blue-700 px-8 py-4 text-lg font-bold transition-colors duration-200"
+            onClick={() => {
+              const section = document.getElementById('pricing');
+              if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
           >
             See Pricing
           </Button>
