@@ -33,7 +33,7 @@ const Footer = () => {
               <span className="text-2xl font-bold">QRGen</span>
             </div>
             <p className="text-gray-400 mb-4">
-              The most trusted QR code platform for Bangladesh businesses.
+              Only trusted QR code platform for Bangladesh businesses.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
