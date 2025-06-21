@@ -21,14 +21,14 @@ const HeroSection = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
           <Button 
             size="lg" 
-            className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-8 py-4 text-lg"
+            className="bg-yellow-300 text-blue-700 hover:bg-yellow-400 hover:text-blue-900 font-bold px-8 py-4 text-lg transition-colors duration-200"
           >
             Generate QR Now
           </Button>
           <Button 
             size="lg" 
             variant="outline" 
-            className="border-white text-blue-300 hover:bg-yellow-300 hover:text-blue-700 px-8 py-4 text-lg font-bold transition-colors duration-200"
+            className="bg-yellow-300 text-blue-700 hover:bg-yellow-400 hover:text-blue-900 border-none px-8 py-4 text-lg font-bold transition-colors duration-200"
             onClick={() => {
               const section = document.getElementById('pricing');
               if (section) {

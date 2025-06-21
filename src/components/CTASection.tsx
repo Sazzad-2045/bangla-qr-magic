@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 
@@ -23,7 +22,7 @@ const CTASection = () => {
           <Button 
             size="lg" 
             variant="outline" 
-            className="border-white text-white hover:bg-white hover:text-blue-600 px-8 py-4 text-lg"
+            className="bg-yellow-300 text-blue-700 hover:bg-yellow-400 hover:text-blue-900 border-none px-8 py-4 text-lg font-bold transition-colors duration-200"
           >
             Talk to Sales
           </Button>
